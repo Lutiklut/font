@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preload" href="fonts/roboto_black.woff2" as="font" />
+    <link rel="preload" href="fonts/roboto_light.woff2" as="font" />
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Frontbyte</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="opacity"></div>
+        <div class="header__wrapper">
+            <div class=" container">
+                <div class="header__content">
+                    <a class="logo" href="#open">
+                        <picture class="logo__img">
+                            <source media="(min-width: 1024px)" srcset="images/header/logo-tab.svg" />
+                            <img src="images/header/logo.svg" alt="" />
+                        </picture>
+                    </a>
+                    <div class="menu">
+                        <nav class="menu__option">
+                            <a class="link" href="#about">About</a>
+                            <a class="link" href="#project">Projects</a>
+                            <a class="link" href="#service">Services</a>
+                            <a class="link" href="#team">Our team</a>
+                            <a class="link" href="#event">Events</a>
+                            <a class="link" href="#contacts">Contacts</a>
+                        </nav>
+                        <div class="menu__language">
+                            <a class="lang">No</a>
+                            <a class="lang lang--active">En</a>
+                            <a class="lang">Ru</a>
+                        </div>
+                    </div>
+                    <div class="burger">
+                        <button class="burger__btn" type="button"><span></span></button>
+                        <div class="burger__menu container">
+                            <div class="burger__menu__link">
+                                <a class="link" href="#about">About</a>
+                                <a class="link link--active" href="#project">Projects</a>
+                                <a class="link" href="#service">Services</a>
+                                <a class="link" href="#team">Our team</a>
+                                <a class="link" href="#event">Events</a>
+                                <a class="link" href="#contacts">Contacts</a>
+                                <div class="burger__menu-language">
+                                    <a class="link lang">No</a>
+                                    <a class="link lang lang--active">En</a>
+                                    <a class="link lang">Ru</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="open" id="open">
+            <div class="container">
+                <div class="article article--open">
+                    <h1 class="article__content">We provide digital services and develop our own products in sports and
+                        iHealth industry</h1>
+                    <p class="article__tehnology">We put technology and sport together to create the world's most
+                        efficient and popular sports apps.</p>
+                </div>
+            </div>
+            <div class="drop-header">
+                <button class="drop">
+                    <p class="drop__text">Drop us a line</p>
+                    <a class="drop__link" href="javascript:void(0)">
+                        <svg id="wid" class="drop__link-img" width="20" height="30" viewBox="0 0 30 30">
+                            <defs>
+                                <path id="a"
+                                    d="M28.071 16H0v-1h28.293L22 8.707 22.707 8l7.071 7.071-.318.318.318.318-7.07 7.071-.708-.707L28.071 16z">
+                                </path>
+                            </defs>
+                            <g fill="none" fill-rule="evenodd">
+                                <mask id="b" fill="#fff">
+                                    <use xlink:href="#a"></use>
+                                </mask>
+                                <use fill="#fff" fill-rule="nonzero" xlink:href="#a"></use>
+                                <g class="svg-hover" fill="#2D2D42" mask="url(#b)">
+                                    <path fill-rule="nonzero" d="M-250-240h30v30h-30z"></path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </button>
+            </div>
+        </section>
+        <section class="about-us" id="about">
+            <div class="container">
+                <div class="article">
+                    <h2 class="article__content ">We combine high level of professionalism and
+                        individual approach</h2>
+                    <p class="article__tehnology">We have subject domain expertise in various
+                        aspects</p>
+                </div>
+                <ul class="competence">
+                    <li class="competence__item">
+                        <img class="competence-img" alt="" src="images/main/ic-project.svg">
+                        <p class="competence-description">Project management for simple and complex projects</p>
+                    </li>
+                    <li class="competence__item">
+                        <img class="competence-img competence-img--color-maneg" alt="" src="images/main/ic-hire.svg">
+                        <p class="competence-description">Management for hire</p>
+                    </li>
+                    <li class="competence__item">
+                        <img class="competence-img competence-img--color-digit" alt="" src="images/main/ic-digital.svg">
+                        <p class="competence-description">Digital transformation</p>
+                    </li>
+                </ul>
+                <div class="article">
+                    <h2 class="article__content article__content--color">What We Do</h2>
+                    <div class="article__tehnology article__tehnology--list">
+                        <p class="item">Development and support of new and existing software systems</p>
+                        <p class="item">Deep analytics in various spheres</p>
+                        <p class="item">Insights-driven solutions</p>
+                        <p class="item">Agile product engineering</p>
+                        <p class="item">Quality Assurance for new and existing products</p>
+                        <p class="item">Data collection, research and analysis</p>
+                        <p class="item">UX/UI concepts and design</p>
+                        <p class="item">Video and motion design</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="service" id="service">
+            <button class="drop drop--background">
+                <p class="drop__text">Services</p>
+                <a class="drop__link" href="javascript:void(0)">
+                    <svg id="widt" class="drop__link-img" width="20" height="30" viewBox="0 0 30 30">
+                        <defs>
+                            <path id="at"
+                                d="M28.071 16H0v-1h28.293L22 8.707 22.707 8l7.071 7.071-.318.318.318.318-7.07 7.071-.708-.707L28.071 16z" />
+                        </defs>
+                        <g fill="none" fill-rule="evenodd">
+                            <mask id="bi" fill="#fff">
+                                <use xlink:href="#a"></use>
+                            </mask>
+                            <use fill="#fff" fill-rule="nonzero" xlink:href="#a"></use>
+                            <g class="svg-hover" fill="#2D2D42" mask="url(#b)">
+                                <path fill-rule="nonzero" d="M-250-240h30v30h-30z"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </button>
+        </section>
+        <section class="work" id="project">
+            <div class="container">
+                <div class="article">
+                    <h2 class="article__content">
+                        Our Work</h2>
+                    <p class="article__tehnology">
+                        We change the way businesses and industries operate.</p>
+                </div>
+            </div>
+            <div class="work__grid">
+                <div class="project project--main">
+                    <a class="foto-link" href="javascript:void(0)">
+                        <picture>
+                            <source media="(min-width: 768px)"
+                                srcset="images/main/project/birdieeyes/vid-birdieeyes@3x.webp" />
+                            <img class="foto foto--main" src="images/main/project/birdieeyes/img-birdieeyes.webp"
+                                alt="" />
+                        </picture>
+                    </a>
+                    <a class="description-link description-link--main" href="javascript:void(0)">
+                        <div class="description description--main">
+                            <h4 class="title title--main">birdieeyes</h4>
+                            <p class="content content--main">We have introduced AR technology
+                                into one of the most traditional games and made it even more interesting</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project">
+                    <a class="foto-link" href="javascript:void(0)">
+                        <picture>
+                            <source media="(min-width: 768px)"
+                                srcset="images/main/project/upsport/img-upsport@3x.webp" />
+                            <img class="foto" src="images/main/project/upsport/img-upsport.webp" alt="" />
+                        </picture>
+                    </a>
+                    <a class="description-link description-link--border" href="javascript:void(0)">
+                        <div class="description">
+                            <h4 class="title">UpSport</h4>
+                            <p class="content">Live communication platform that has changed the game for
+                                sport clubs, parents and their kids</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project">
+                    <a class="foto-link" href="javascript:void(0)">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="images/main/project/xland/img-xland@3x.webp" />
+                            <img class="foto" src="images/main/project/xland/img-xland.webp" alt="" />
+                        </picture>
+                    </a>
+                    <a class="description-link" href="javascript:void(0)">
+                        <div class="description">
+                            <h4 class="title">Xland</h4>
+                            <p class="content">Digital presence for the first indoor activity park in Norway
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project project--hidden">
+                    <a class="foto-link" href="javascript:void(0)">
+                        <picture>
+                            <source media="(min-width: 768px)"
+                                srcset="images/main/project/phonero/img-phonero@3x.webp" />
+                            <img class="foto" src="images/main/project/phonero/img-phonero.webp" alt="" />
+                        </picture>
+                    </a>
+                    <a class="description-link description-link--border" href="javascript:void(0)">
+                        <div class="description">
+                            <h4 class="title">phonero</h4>
+                            <p class="content">Interfaces for the cloud based switchboard applications as
+                                well as various desktop and mobile applications</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project project--hidden">
+                    <a class="foto-link" href="javascript:void(0)">
+                        <picture>
+                            <source media="(min-width: 768px)"
+                                srcset="images/main/project/kongsberg/img-kongsberg@3x.webp" />
+                            <img class="foto" src="images/main/project/kongsberg/img-kongsberg.webp" alt="" />
+                        </picture>
+                    </a>
+                    <a class="description-link" href="javascript:void(0)">
+                        <div class="description">
+                            <h4 class="title">Kongsberg Group</h4>
+                            <p class="content">Groundbreaking defence and aerospace systems</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="more">
+                <button class="drop drop--background">
+                    <p class="drop__text">All projects</p>
+                    <a class="drop__link" href="javascript:void(0)">
+                        <svg id="widy" class="drop__link-img" width="20" height="30" viewBox="0 0 30 30">
+                            <defs>
+                                <path id="aj"
+                                    d="M28.071 16H0v-1h28.293L22 8.707 22.707 8l7.071 7.071-.318.318.318.318-7.07 7.071-.708-.707L28.071 16z" />
+                            </defs>
+                            <g fill="none" fill-rule="evenodd">
+                                <mask id="bol" fill="#fff">
+                                    <use xlink:href="#a"></use>
+                                </mask>
+                                <use fill="#fff" fill-rule="nonzero" xlink:href="#a"></use>
+                                <g class="svg-hover" fill="#2D2D42" mask="url(#b)">
+                                    <path fill-rule="nonzero" d="M-250-240h30v30h-30z"></path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </button>
+            </div>
+        </section>
+        <section class="comand" id="team">
+            <div class="team">
+                <div class="foto-link">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="images/main/team/img-team-home@3x.webp" />
+                        <img class="team__img team__img--main" src="images/main/team/img-team-home.webp" alt="" />
+                    </picture>
+                </div>
+                <div class="team__description team__description--main">
+                    <h4 class="title title--team">our team</h4>
+                    <p class="content content--team">We are united by
+                        our passion to create unique and efficient digital products</p>
+                </div>
+            </div>
+        </section>
+        <section class="event" id="event">
+            <div class="container">
+                <div class="article">
+                    <h2 class="article__content">
+                        Inside Frontbyte</h2>
+                    <p class="article__tehnology">
+                        We change the way businesses and industries operate.
+                    </p>
+                </div>
+            </div>
+            <div class="team team--main event__desctop">
+                <a class="foto team__foto--event" href="javascript:void(0)">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="images/main/team/img-inside-press@3x.webp" />
+                        <img class="team__img  event__img--main" src="images/main/team/img-inside-press.webp" alt="" />
+                    </picture>
+                </a>
+                <a class="description-link description-link-team" href="javascript:void(0)">
+                    <div class="team__description team__description--press event__description">
+                        <h4 class="title title--team title--event">Press about us
+                        </h4>
+                        <p class="content content--event">AR golf
+                            platform
+                            BirdieEyes raises $300
+                            million at $2.7 billion valuation</p>
+                        <div class='sight'>
+                            <div class="sight-t"></div>
+                            <div class="sight-c"></div>
+                        </div>
+                        <div class="navigaton">
+                            <div class="next">
+                                <button class="next__btn next__btn--hidden next__btn--left">
+                                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                        viewBox="0 0 30 30">
+                                        <defs>
+                                            <path id="lef"
+                                                d="M20.263 14.657l.05.05L9.708 25.314 9 24.607l9.95-9.95L9 4.707 9.707 4l10.607 10.607-.05.05z" />
+                                        </defs>
+                                        <g fill="none" fill-rule="evenodd">
+                                            <mask id="lef-b" fill="#fff">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#lef" />
+                                            </mask>
+                                            <use fill="#2D2D42" fill-rule="nonzero"
+                                                transform="matrix(-1 0 0 1 29.314 0)"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#lef" />
+                                            <g fill="#2D2D42" mask="url(#lef-b)">
+                                                <path fill-rule="nonzero" d="M-131-387h30v30h-30z" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </button>
+                                <button class="next__btn next__btn--right next__btn--hidden">
+                                    <svg class="arrow arrow--active" xmlns="http://www.w3.org/2000/svg" width="30"
+                                        height="30" viewBox="0 0 30 30">
+                                        <defs>
+                                            <path id="right"
+                                                d="M20.263 14.657l.05.05L9.708 25.314 9 24.607l9.95-9.95L9 4.707 9.707 4l10.607 10.607-.05.05z" />
+                                        </defs>
+                                        <g fill="none" fill-rule="evenodd">
+                                            <mask id="right-b" fill="#fff">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#right" />
+                                            </mask>
+                                            <use fill="#2D2D42" fill-rule="nonzero"
+                                                transform="matrix(-1 0 0 1 29.314 0)"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#right" />
+                                            <g fill="#2D2D42" mask="url(#right-b)">
+                                                <path fill-rule="nonzero" d="M-131-387h30v30h-30z" />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="next next--hidden">
+                                <button class="next__btn next__btn--style next__btn--active"></button>
+                                <button class="next__btn next__btn--style"></button>
+                                <button class="next__btn next__btn--style"></button>
+                                <button class="next__btn next__btn--style"></button>
+                                <button class="next__btn next__btn--style"></button>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="news">
+                <div class="team__description news__description">
+                    <h4 class="title title--news">Latest News</h4>
+                    <div class="news__rebben">
+                        <div class="news__rebben__new">
+                            <a href="javascript:void(0)" class="content content--new">How to
+                                use email marketing to
+                                connect with your users</a>
+                            <p class="time">Dec 19, 2018</p>
+                        </div>
+                        <div class="news__rebben__new">
+                            <a href="javascript:void(0)" class="content content--new">How to
+                                use email marketing to
+                                connect with your users</a>
+                            <p class="time">Dec 19, 2018</p>
+                        </div>
+                        <div class="news__rebben__new">
+                            <a href="javascript:void(0)" class="content content--new">How to
+                                use email marketing to
+                                connect with your users</a>
+                            <p class="time">Dec 19, 2018</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="contacts">
+        <div class="decktop-margin">
+            <div class="container">
+                <div class="social">
+                    <div class="conact">
+                        <h2 class="conact__header">
+                            Contacts</h2>
+                        <p class="conact__info">
+                            Our head office is located in Norway.
+                            Research and development center is located in Belarus.
+                        </p>
+                    </div>
+                    <div class="wide">
+                        <a class="wide__link" href="https://ru.linkedin.com/" target="_blank"><img alt=""
+                                src="images/footer/ic-linkedin-white.svg"></a>
+                        <a class="wide__link" href="https://www.facebook.com/" target="_blank"><img alt=""
+                                src="images/footer/ic-facebook-white.svg"></a>
+                        <a class="wide__link" href="https://www.instagram.com/" target="_blank"><img alt=""
+                                src="images/footer/ic-instagram-white.svg"></a>
+                    </div>
+                </div>
+                <div class="locations">
+                    <div class="location location--padding">
+                        <h4 class="location__country">Norway</h4>
+                        <p class="location__city">Kristiansand</p>
+                        <a class="location__adress" href="javascript:void(0)">Vestre strandgate, 23, 4th and 6th floor
+                            N-4611 </a>
+                        <a class="location__email" href="https://mail.google.com"
+                            target="_blank">contact@frontbyte.no</a>
+                        <a class="location__phone" href="tel:+4741636983" target="_blank">+47 416 36 983</a>
+                    </div>
+                    <div class="location">
+                        <h4 class="location__country">Belarus</h4>
+                        <p class="location__city">Minsk</p>
+                        <a class="location__adress" href="javascript:void(0)">Dombrovskaya str., 9, оffice 10.2.2</a>
+                        <a class="location__email" href="https://mail.google.com"
+                            target="_blank">contact@frontbyte.by</a>
+                        <a class="location__phone" href="tel:+375291393336" target="_blank">+375 29 1393336</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <picture>
+                <source media="(min-width: 768px)" srcset="images/footer/img-map980.svg" />
+                <source media="(min-width: 1000px)" srcset="images/footer/img-map1180.svg" />
+                <img class="map__img" alt="" src="images/footer/img-map980.svg">
+            </picture>
+            <div class="dot dot--norway"></div>
+            <div class="dot dot--belarus"></div>
+        </div>
+
+        <div class="for-drop">
+            <button class="drop drop--footer">
+                <p class="drop__text">Drop us a line</p>
+                <a class="drop__link" href="javascript:void(0)">
+                    <svg id="widi" class="drop__link-img" width="20" height="30" viewBox="0 0 30 30">
+                        <defs>
+                            <path id="am"
+                                d="M28.071 16H0v-1h28.293L22 8.707 22.707 8l7.071 7.071-.318.318.318.318-7.07 7.071-.708-.707L28.071 16z">
+                            </path>
+                        </defs>
+                        <g fill="none" fill-rule="evenodd">
+                            <mask id="foot" fill="#fff">
+                                <use xlink:href="#a"></use>
+                            </mask>
+                            <use id="coll" fill="#fff" fill-rule="nonzero" xlink:href="#a"></use>
+                            <g class="svg-hover" fill="#2D2D42" mask="url(#b)">
+                                <path fill-rule="nonzero" d="M-250-240h30v30h-30z"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </button>
+
+            <div class="container">
+                <div class="nav-menu">
+                    <div class="nav-menu__link">
+                        <a class="link" href="#about">About</a>
+                        <a class="link" href="#project">Projects</a>
+                        <a class="link" href="#service">Services</a>
+                        <a class="link" href="#team">Our team</a>
+                        <a class="link" href="#contacts">Contacts</a>
+                    </div>
+                </div>
+                <div class="copyrite">
+                    <p>© 2008–2018 Frontbyte</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

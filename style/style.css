@@ -1,0 +1,62 @@
+@import url(fonts/fonts.css);
+@import url(header/header.css);
+@import url(main/main.css);
+@import url(footer/footer.css);
+@import url(var.css);
+
+html {
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    cursor: pointer;
+    color: #f4f4f7;
+    ;
+}
+
+button {
+    cursor: pointer;
+}
+
+@media (min-width:1024px) {
+
+
+    a:hover,
+    a:hover p,
+    a:hover h4 {
+        color: var(--sky-blue) !important;
+        border-color: var(--sky-blue);
+        transition: all 0.5s ease;
+    }
+
+    .next__btn:hover {
+        border-color: var(--sky-blue);
+        transition: all 0.5s ease;
+    }
+
+    a:hover .title--main,
+    a:hover .content--main {
+        color: var(--black) !important;
+        transition: all 0.5s ease;
+    }
+
+    .foto:hover {
+        transform: scale(1.01);
+        transition: all 0.5s ease;
+    }
+}
