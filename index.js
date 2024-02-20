@@ -29,15 +29,31 @@ rowBtns.forEach(btn => {
 });
 
 window.onscroll = function () { scrollFunction() };
-
+let links = Array.from(document.querySelector('.header__wrapper').getElementsByTagName("a"));
 function scrollFunction() {
     if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
-        document.querySelector('.header__wrapper').style.background = "black";
-        // "linear-gradient(360deg, black, transparent)"; 
+        if (window.innerWidth <= 1024) {
+            document.querySelector('.header__wrapper').style.background = "black";
+            links.forEach(link => { link.style.color = '#2d2d42' })
+
+        }
+        else {
+            document.querySelector('.header__wrapper').style.background = "white";
+            // document.querySelector('.header__wrapper').querySelector(".lang--active").style.borderColor = "#2d2d42"
+            links.forEach(link => { link.style.color = 'black' })
+            console.log(links)
+        }
     } else {
+
         document.querySelector('.header__wrapper').style.background = "transparent";
+        if (window.innerWidth >= 1024) {
+            links.forEach(link => { link.style.color = '#f4f4f7' })
+            // document.querySelector('.header__wrapper').querySelector(".lang--active").style.borderColor = "#f4f4f7"
+            // document.querySelector('.header__wrapper').querySelector(".lang").style.borderColor = "transparent"
+        }
     }
 }
+
 const openBurger = document.querySelector('.opacity');
 const burgerBtn = document.querySelector('.burger__btn')
 burgerBtn.addEventListener('click', (e) => {

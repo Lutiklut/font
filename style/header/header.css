@@ -189,11 +189,7 @@ a {
 }
 
 .burger__menu-language .lang--active {
-    border: 1px solid var(--dark);
-}
-
-.lang--active {
-    border: 1px solid var(--dark);
+    border-color: var(--dark);
 }
 
 .lang {
@@ -204,6 +200,10 @@ a {
     display: flex;
     border-radius: 50%;
     border: 1px solid transparent;
+}
+
+.lang--active {
+    border-color: var(--dark);
 }
 
 @media (min-width: 768px) {
@@ -302,7 +302,6 @@ a {
     .menu__language .lang {
         margin-left: 25px;
     }
-
 }
 
 @media (min-width: 1180px) {
