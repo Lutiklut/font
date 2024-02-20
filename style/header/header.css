@@ -184,7 +184,12 @@ a {
 .burger__menu-language .link {
     margin-right: 25px;
     font-size: 15px;
-    line-height: 20px;
+    padding-left: 5px;
+    display: flex;
+}
+
+.burger__menu-language .lang--active {
+    border: 1px solid var(--dark);
 }
 
 .lang--active {
