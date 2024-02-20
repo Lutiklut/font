@@ -32,9 +32,10 @@ window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
     if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
-        document.querySelector('.header__wrapper').style.background = "linear-gradient(360deg, black, transparent)"; // Показать фон при прокрутке на 40px вниз
+        document.querySelector('.header__wrapper').style.background = "black";
+        // "linear-gradient(360deg, black, transparent)"; 
     } else {
-        document.querySelector('.header__wrapper').style.background = "transparent"; // Скрыть фон при возврате к верху
+        document.querySelector('.header__wrapper').style.background = "transparent";
     }
 }
 const openBurger = document.querySelector('.opacity');
