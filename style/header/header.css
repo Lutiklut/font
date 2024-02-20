@@ -44,7 +44,7 @@ a {
     max-width: 1180px;
     margin: 0 auto;
     background-color: transparent;
-    transition: all 100s ease;
+    transition: all 0.1s ease;
 }
 
 .logo {
