@@ -180,6 +180,7 @@
 
     .article {
         margin: 0 auto;
+        padding-left: 10px;
     }
 
     .drop {
@@ -188,7 +189,10 @@
 
     .article--open {
         padding-bottom: 78px;
-        padding-left: 10px;
     }
 
+    .article__tehnology--open {
+        font-size: 20px !important;
+        letter-spacing: 0.1px !important;
+    }
 }

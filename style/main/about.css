@@ -165,7 +165,10 @@ main {
         line-height: 40px;
     }
 
-
+    .article__tehnology {
+        font-size: 30px;
+        letter-spacing: -0.9px;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -179,9 +182,14 @@ main {
         margin: 100px 0;
     }
 
+    .article--about {
+        padding-top: 20px;
+    }
+
+
     .article__tehnology--list {
         margin-left: -40px;
-        margin-bottom: 68px;
+        margin-bottom: 23px;
         height: 300px;
     }
 
@@ -189,9 +197,11 @@ main {
         letter-spacing: 0px;
         margin-right: 176px;
         margin-bottom: 16px;
+        width: 380px;
     }
 
     .competence {
         padding-left: 150px;
+        padding-top: 55px;
     }
 }

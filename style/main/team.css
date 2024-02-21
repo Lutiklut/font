@@ -392,13 +392,15 @@
 
     .team__description--main {
         right: 110px;
-        bottom: 20px;
+        bottom: 35px;
     }
 
     .team__description--press {
         left: 0px;
         bottom: 0px;
     }
+
+
 }
 
 @media (min-width:1280px) {
@@ -413,8 +415,8 @@
     }
 
     .article--event {
-        padding: 25px 10px;
-        margin-bottom: 50px;
+        padding: 0px 10px;
+        margin-bottom: 90px;
     }
 
     .article__tehnology--event {
@@ -431,6 +433,11 @@
         margin: 15px 0 50px;
     }
 
+    .event {
+        padding: 0px 0 8px;
+    }
+
+
     .title--event {
         margin: 15px 0 30px;
     }
@@ -444,7 +451,7 @@
     }
 
     .event__description {
-        padding: 25px 60px 25px 0px;
+        padding: 0px 60px 0px 0px;
     }
 
     .navigaton {
@@ -477,8 +484,11 @@
     }
 
     .event {
-        margin: 0 0 100px 0;
+        margin: 0 0 90px 0;
     }
 
+    .sight {
+        bottom: 50px;
+    }
 
 }

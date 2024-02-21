@@ -160,6 +160,11 @@
 
     .work {
         padding-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    .work__grid {
+        margin-top: 63px;
     }
 
     .project {
@@ -176,7 +181,7 @@
     }
 
     .description {
-        padding: 25px 145px 25px 0px;
+        padding: 0px 120px 0px 0px;
     }
 
     .description--main {
@@ -196,4 +201,11 @@
     .foto-link {
         filter: brightness(100%)
     }
+
+
+    .description-link {
+        padding: 20px 63px 0px 0;
+    }
+
+
 }
