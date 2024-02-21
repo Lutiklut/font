@@ -193,13 +193,22 @@ a {
 }
 
 .lang {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
     display: flex;
     border-radius: 50%;
     border: 1px solid transparent;
+}
+
+.link.lang {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: flex;
+    padding-left: 10px;
 }
 
 .lang--active {
@@ -229,6 +238,10 @@ a {
 }
 
 @media (min-width: 1024px) {
+    .header__content {
+        justify-content: left;
+    }
+
     .logo {
         margin-right: 60px;
     }
@@ -302,9 +315,18 @@ a {
     .menu__language .lang {
         margin-left: 25px;
     }
+
 }
 
-@media (min-width: 1180px) {
+@media (min-width: 1280px) {
+    .logo {
+        margin-right: 120px;
+    }
+
+    .menu__option {
+        margin-right: 102px;
+    }
+
     .header__wrapper {
         max-width: 1180px;
     }

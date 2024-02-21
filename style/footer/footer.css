@@ -38,6 +38,7 @@
 .wide__link {
     margin: 0 21px 0 0;
     cursor: pointer;
+    height: 40px;
 }
 
 .locations {

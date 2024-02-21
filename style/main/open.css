@@ -33,6 +33,12 @@
     margin-bottom: 20px;
 }
 
+.article__tehnology {
+    /* display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden; */
+}
 
 .article__tehnology,
 .drop {
@@ -56,6 +62,14 @@
     background-color: transparent;
     height: 80px;
     width: 100%;
+    overflow: hidden;
+}
+
+.drop__text {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .drop__link-img {
@@ -172,5 +186,9 @@
         padding: 25px 50px 25px 200px;
     }
 
+    .article--open {
+        padding-bottom: 78px;
+        padding-left: 10px;
+    }
 
 }
